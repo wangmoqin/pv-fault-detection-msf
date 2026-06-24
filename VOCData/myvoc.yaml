@@ -1,0 +1,9 @@
+train: D:/pythondaima/my_yolov8-main/VOCData/dataSet_path/train.txt  # 训练集的图片路径
+val: D:/pythondaima/my_yolov8-main/VOCData/dataSet_path/val.txt      # 验证集的图片路径
+
+nc: 3  # 类别数量，包含3类
+
+names:  # 类别名称列表
+  0: heat
+  1: multi_heat
+  2: diode
